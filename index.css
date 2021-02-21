@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  nav .left {
+    background: #FF764E;
+  }
+  
+  nav .middle {
+    background: #5ED3EB;
+  }
+  
+  nav .right {
+    background: #FFCD69;
+  }
+  
+  .footer-nav {
+    padding: 20px;
+    background: #F9E7DC;
+  }
+  
+  footer img {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .content-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+  }
+  
+  .content-header img{
+    border-radius: 100%;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .content-header .text{
+    text-align: center;
+  }
+  
+  .content-header .text-title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 40px;
+  }
+  
+  .content-header .text-tail{
+    width：50px;
+  }
+  
+  .content-general {
+    padding: 30px;
+    background: #DDB9A3;
+    color: white;
+    line-height: 25px;
+  }
+  
+  .content-main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon{
+    width: 100px;
+    
+  }
+  
+  .content-main p {
+    width: 250px;
+    text-align: center;
+  }
